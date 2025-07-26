@@ -295,10 +295,6 @@ function App() {
             Send Message
           </button>
 
-          <p className="text-xs text-gray-500 mt-2">
-            Or reach me directly at <strong>+44 7721 703679</strong>
-          </p>
-
           <p
             id="thankyou-message"
             className="text-green-600 text-sm font-medium mt-4 hidden"
