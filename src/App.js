@@ -37,7 +37,7 @@ function App() {
         <div className="max-w-6xl mx-auto px-4 py-4 flex flex-wrap items-center justify-between">
           <div className="flex items-center gap-2">
             <img src={logo} alt="Logo" className="h-9 w-9" />
-            <span className="text-xl font-bold cursor-pointer">Sarath</span>
+            <span className="text-xl font-bold cursor-pointer">Sarath Ramachandran</span>
           </div>
           <div className="flex items-center space-x-4 mt-2 sm:mt-0">
             <nav className="flex flex-wrap gap-x-4 gap-y-2 text-sm font-medium justify-center">
@@ -228,7 +228,7 @@ function App() {
           Resume
         </h2>
         <a
-          href="/resume.pdf"
+          href={`${process.env.PUBLIC_URL}/resume.pdf`}
           download
           className="inline-flex items-center px-5 py-3 bg-blue-600 text-white rounded hover:bg-blue-700 transition cursor-pointer"
         >
