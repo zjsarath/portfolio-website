@@ -103,7 +103,7 @@ function App() {
           Software Developer · Quality Engineer · System Design Enthusiast
         </p>
         <a
-          href="#resume"
+          href="#projects"
           className="mt-6 inline-block px-6 py-3 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 transition cursor-pointer"
         >
           Explore My Work
