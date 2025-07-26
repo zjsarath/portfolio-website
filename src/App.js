@@ -84,7 +84,7 @@ function App() {
       {/* Hero */}
       <section id="home" className="pt-32 text-center px-4 scroll-mt-24">
         <motion.img
-          src="/sarath.png"
+          src={`${process.env.PUBLIC_URL}/sarath.png`}
           alt="Sarath Ramachandran"
           className="mx-auto border-4 border-blue-600 shadow-2xl rounded-full h-64 w-64 object-cover mb-6"
           initial={{ opacity: 0, scale: 0.6 }}

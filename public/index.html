@@ -10,6 +10,11 @@
   <meta name="description" content="Web site created using create-react-app" />
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <script>
+    if (localStorage.getItem("theme") === "dark" || !localStorage.getItem("theme")) {
+      document.documentElement.classList.add("dark");
+    }
+  </script>
   <title>Sarath Portfolio</title>
 </head>
 
