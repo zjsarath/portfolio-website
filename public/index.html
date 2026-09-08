@@ -7,15 +7,13 @@
   <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Portfolio of Sarath Ramachandran – Aspiring Software Developer" />
-  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <meta name="description" content="Sarath Ramachandran — software developer and quality engineer. React, Java, Spring Boot and thoughtful digital experiences." />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.png" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   <script>
-    if (localStorage.getItem("theme") === "dark" || !localStorage.getItem("theme")) {
-      document.documentElement.classList.add("dark");
-    }
+    try { document.documentElement.dataset.theme = localStorage.getItem('theme') === 'light' ? 'light' : 'dark'; } catch (_) {}
   </script>
-  <title>Sarath Portfolio</title>
+  <title>Sarath Ramachandran | Developer & Quality Engineer</title>
 </head>
 
 <body>
