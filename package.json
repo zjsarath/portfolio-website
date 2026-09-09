@@ -1,7 +1,7 @@
 {
   "name": "portfolio-website",
   "version": "0.1.0",
-  "homepage": "https://zjsarath.github.io/portfolio-website",
+  "homepage": "https://sarath.lucidframes.online",
   "private": true,
   "dependencies": {
     "@fontsource/inter": "^5.2.6",
